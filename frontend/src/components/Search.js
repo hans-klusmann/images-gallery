@@ -7,7 +7,8 @@ const Search = ({word, setWord, handleSubmit}) => {
       <Form onSubmit={handleSubmit}>
         <Row className="justify-content-center">
           <Col xs={9}>
-            <Form.Control 
+            <Form.Control
+              id="myForm"
               placeholder="Search for new image..."
               type = "text"
               value = {word}
@@ -16,6 +17,7 @@ const Search = ({word, setWord, handleSubmit}) => {
           </Col>
           <Col>
             <Button variant="primary" type="submit">Search</Button>
+
           </Col>
         </Row>
       </Form>
