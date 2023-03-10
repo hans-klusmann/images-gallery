@@ -8,7 +8,6 @@ const Search = ({ word, setWord, handleSubmit }) => {
         <Row className="justify-content-center">
           <Col xs={9}>
             <Form.Control
-              id="myForm"
               placeholder="Search for new image..."
               type="text"
               value={word}
